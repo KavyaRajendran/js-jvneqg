@@ -75,18 +75,18 @@ function compareNum(num_1,num_2) {
 //check vowels
 function isVowel(str_1) {
   let str = 'helloworld';
-  for(let i=0;i<str.length;i++)
+  for(let i=0;i<=str.length;i++)
   {
   if(str.charAt(i)==='a' || str.charAt(i)==='e' || str.charAt(i)==='i' || str.charAt(i)==='o'||str.charAt(i)==='u'
   ||str.charAt(i)==='A'||str.charAt(i)==='E'||str.charAt(i)==='I'||str.charAt(i)==='O'||str.charAt(i)==='U') {
-    return str.charAt(i);
+    let arr=[];
+    console.log(str.charAt(i));
   }
 }
 }
+let str_1 = isVowel();
 
 //PRIME NUMBER OR NOT
-let str_1 = isVowel();
-console.log(str_1);
 
 let num=199,count=0;
 for(i=1;i<num;i++)
